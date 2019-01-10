@@ -29,8 +29,13 @@ and open the template in the editor.
                     <input type="button" value="ANNULLA LAST" onclick="undoDonazione()"><br> 
                     <input type="button" value="ELIMINA NUMERO: " onclick="cancella()"> 
                     <input type="button" value="MODIFICA VALORE PER: " onclick="modifica()"> 
-                    <input id="in_modif" placeholder=" " type="number"><br> 
-                    Totale donazioni: <span id="totale">0</span>
+                    <input min= "1" id="in_modif" placeholder=" " type="number"><br> 
+                    Totale donazioni: $ <span id="totale">0</span><br>
+                    Numero donazioni: <span id="numeroDon">0</span><br><br>
+                    <input id="in_nomeRicerca" placeholder="ins.nome da cercare" size="50"><br>
+                    <input type="button" value="CERCA DONAZIONE" onclick="cerca()"><br>
+                    <div id="div_valoreRicerca">----</div>
+                    
                 </td>
                 <td>
                     <div id=div_donazioni>nessuna donazione
