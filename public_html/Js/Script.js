@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 
-
+// se voglio far delle prove prima di far partire il tutto farò:
+   //var ar_nomi = ["bianchi","rossi","verdi","blu"];
+   //var ar_valori= [12,65.20,50.25, 157];
+   //devo però nel body in index devo mettere "onload" --vedi index
 var ar_nomi = [];
 var ar_valori = [];
 var tot_don = 0;
